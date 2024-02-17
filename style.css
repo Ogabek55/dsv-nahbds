@@ -166,3 +166,73 @@ body {
   justify-content: center;
   text-decoration: none;
 }
+@media screen and (max-width: 1181px) {
+  body {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
+
+  .malumot {
+    display: none;
+  }
+
+  .Tashkilot {
+    display: none;
+  }
+  .Imkoniyatlar {
+    display: none;
+  }
+  .Hamkorlarga {
+    display: none;
+  }
+  .Yordam {
+    display: none;
+  }
+  .New-work {
+    display: none;
+  }
+  .New-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .furure-send1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 861px) {
+  body {
+    width: 100%;
+  }
+
+  .New-text {
+    display: block;
+  }
+}
+@media screen and (max-width: 390px) {
+  body {
+    width: 100%;
+  }
+  .Ozb {
+    display: none;
+  }
+  .New-text {
+    display: block;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  .furure-send1 {
+    width: 100%;
+  }
+  .section {
+    width: 20%;
+  }
+  .Kirish {
+    font-size: 06px;
+  }
+}

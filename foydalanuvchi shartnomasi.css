@@ -150,3 +150,59 @@ section {
   justify-content: center;
   font-size: 25px;
 }
+@media screen and (max-width: 1181px) {
+  body {
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+  }
+
+  .malumot {
+    display: none;
+  }
+
+  .Tashkilot {
+    display: none;
+  }
+  .Imkoniyatlar {
+    display: none;
+  }
+  .Hamkorlarga {
+    display: none;
+  }
+  .Yordam {
+    display: none;
+  }
+  .New-work {
+    display: none;
+  }
+  .New-text {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  .furure-send1 {
+    display: none;
+  }
+  .Ozb {
+    display: none;
+  }
+  .New-text {
+    display: block;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    width: 100%;
+  }
+  .furure-send1 {
+    width: 100%;
+  }
+  .section {
+    width: 20%;
+  }
+  .Kirish {
+    font-size: 06px;
+  }
+}
